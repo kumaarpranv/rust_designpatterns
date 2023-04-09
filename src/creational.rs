@@ -17,3 +17,8 @@ pub mod prototype;
 
 #[cfg(test)]
 pub mod prototype_tests;
+
+pub mod singleton;
+
+#[cfg(test)]
+pub mod singleton_tests;
