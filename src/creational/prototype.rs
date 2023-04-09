@@ -1,6 +1,5 @@
-pub trait Shape {
+pub trait Shape: Clone {
     fn area(&self) -> f64;
-    fn clone_box(&self) -> Box<dyn Shape>;
 }
 
 #[derive(Clone)]
@@ -18,10 +17,6 @@ impl Shape for Circle {
     fn area(&self) -> f64 {
         std::f64::consts::PI * self.radius * self.radius
     }
-
-    fn clone_box(&self) -> Box<dyn Shape> {
-        Box::new(self.clone())
-    }
 }
 
 impl Shape for Rectangle {
@@ -29,7 +24,4 @@ impl Shape for Rectangle {
         self.width * self.height
     }
 
-    fn clone_box(&self) -> Box<dyn Shape> {
-        Box::new(self.clone())
-    }
 }
