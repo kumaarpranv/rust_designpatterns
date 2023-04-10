@@ -6,6 +6,10 @@ run using,
 
 `$ cargo test`
 
+to see print outputs as well (to visualize for chain-of-command)
+
+`$ cargo test -- --nocapture`
+
 creational patterns:
 
 - [X] Factory
@@ -26,7 +30,7 @@ structural patterns:
 
 behavioural patterns:
 
-- [ ] Chain of responsibility
+- [X] Chain of responsibility
 - [ ] Command
 - [ ] Iterator
 - [ ] Mediator
