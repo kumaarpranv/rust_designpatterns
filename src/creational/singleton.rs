@@ -1,6 +1,6 @@
-use std::sync::{Arc, Mutex, Once};
-use rand::Rng;
 use once_cell::sync::Lazy;
+use rand::Rng;
+use std::sync::{Arc, Mutex};
 
 pub struct Singleton {
     data: u32,
@@ -16,7 +16,8 @@ impl Singleton {
 
     pub fn instance() -> Arc<Mutex<Self>> {
         // Use once_cell's Lazy type to initialize the instance only once
-        static INSTANCE: Lazy<Arc<Mutex<Singleton>>> = Lazy::new(|| Arc::new(Mutex::new(Singleton::new())));
+        static INSTANCE: Lazy<Arc<Mutex<Singleton>>> =
+            Lazy::new(|| Arc::new(Mutex::new(Singleton::new())));
         INSTANCE.clone()
     }
 
