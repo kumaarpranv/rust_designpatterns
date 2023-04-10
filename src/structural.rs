@@ -21,3 +21,7 @@ pub mod facade_tests;
 pub mod proxy;
 #[cfg(test)]
 pub mod proxy_tests;
+
+pub mod flyweight;
+#[cfg(test)]
+pub mod flyweight_tests;

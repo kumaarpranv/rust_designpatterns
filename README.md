@@ -2,6 +2,10 @@
 
 ### planning to add all popular design patterns in rust implementations with sensible simple real-world examples.
 
+run using,
+
+`$ cargo test`
+
 creational patterns:
 
 - [X] Factory
@@ -17,7 +21,7 @@ structural patterns:
 - [X] Composite
 - [X] Decorator
 - [X] Facade
-- [ ] Flyweight
+- [X] Flyweight
 - [X] Proxy
 
 behavioural patterns:
