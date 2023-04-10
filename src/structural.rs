@@ -9,3 +9,7 @@ pub mod bridge_tests;
 pub mod composite;
 #[cfg(test)]
 pub mod composite_tests;
+
+pub mod decorator;
+#[cfg(test)]
+pub mod decorator_tests;
