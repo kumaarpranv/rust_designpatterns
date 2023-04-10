@@ -13,3 +13,7 @@ pub mod composite_tests;
 pub mod decorator;
 #[cfg(test)]
 pub mod decorator_tests;
+
+pub mod facade;
+#[cfg(test)]
+pub mod facade_tests;
