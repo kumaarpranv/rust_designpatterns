@@ -17,3 +17,7 @@ pub mod decorator_tests;
 pub mod facade;
 #[cfg(test)]
 pub mod facade_tests;
+
+pub mod proxy;
+#[cfg(test)]
+pub mod proxy_tests;
