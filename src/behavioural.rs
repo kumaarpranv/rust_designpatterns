@@ -9,3 +9,7 @@ pub mod command_tests;
 pub mod iterator;
 #[cfg(test)]
 pub mod iterator_tests;
+
+pub mod memento;
+#[cfg(test)]
+pub mod memento_tests;

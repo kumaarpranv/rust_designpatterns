@@ -34,7 +34,7 @@ behavioural patterns:
 - [X] Command
 - [X] Iterator
 - [ ] Mediator
-- [ ] Memento
+- [X] Memento
 - [ ] Observer
 - [ ] State
 - [ ] Strategy
