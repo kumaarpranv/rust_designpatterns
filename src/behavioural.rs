@@ -1,3 +1,7 @@
 pub mod chain_of_command;
 #[cfg(test)]
 pub mod chain_of_command_tests;
+
+pub mod command;
+#[cfg(test)]
+pub mod command_tests;
