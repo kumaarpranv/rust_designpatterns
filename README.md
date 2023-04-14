@@ -31,8 +31,8 @@ structural patterns:
 behavioural patterns:
 
 - [X] Chain of responsibility
-- [ ] Command
-- [ ] Iterator
+- [X] Command
+- [X] Iterator
 - [ ] Mediator
 - [ ] Memento
 - [ ] Observer
