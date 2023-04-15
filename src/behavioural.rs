@@ -13,3 +13,7 @@ pub mod iterator_tests;
 pub mod memento;
 #[cfg(test)]
 pub mod memento_tests;
+
+pub mod template_method;
+#[cfg(test)]
+pub mod template_method_tests;

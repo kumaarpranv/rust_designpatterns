@@ -38,5 +38,5 @@ behavioural patterns:
 - [ ] Observer
 - [ ] State
 - [ ] Strategy
-- [ ] Template Method
+- [X] Template Method
 - [ ] Visitor
