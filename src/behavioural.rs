@@ -21,3 +21,7 @@ pub mod template_method_tests;
 pub mod visitor;
 #[cfg(test)]
 pub mod visitor_tests;
+
+pub mod strategy;
+#[cfg(test)]
+pub mod strategy_tests;

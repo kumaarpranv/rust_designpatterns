@@ -37,6 +37,6 @@ behavioural patterns:
 - [X] Memento
 - [ ] Observer
 - [ ] State
-- [ ] Strategy
+- [X] Strategy
 - [X] Template Method
 - [X] Visitor
