@@ -17,3 +17,7 @@ pub mod memento_tests;
 pub mod template_method;
 #[cfg(test)]
 pub mod template_method_tests;
+
+pub mod visitor;
+#[cfg(test)]
+pub mod visitor_tests;

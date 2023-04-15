@@ -39,4 +39,4 @@ behavioural patterns:
 - [ ] State
 - [ ] Strategy
 - [X] Template Method
-- [ ] Visitor
+- [X] Visitor
